@@ -1,7 +1,9 @@
 {
     "compilerOptions": {
-        "target": "es3",
-        "watch": true,
-        "lib": ["dom"]
-    }
-}
+      "target": "ES6",
+      "outDir": "./dist",
+      "strict": true
+    },
+    "include": ["src/**/*.ts"],
+    "exclude": ["node_modules"]
+  }
